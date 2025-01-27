@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>project>
+  <title>Student Project Management</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -40,48 +40,66 @@
 
   <header id="header" class="header fixed-top">
 
-    <!-- Top Bar -->
     <div class="topbar d-flex align-items-center">
       <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
-          <i class="bi bi-envelope d-flex align-items-center">
-            <a href="mailto:contact@example.com">contact@example.com</a>
-          </i>
-          <i class="bi bi-phone d-flex align-items-center ms-4">
-            <span>+1 5589 55488 55</span>
-          </i>
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
         </div>
         <div class="social-links d-none d-md-flex align-items-center">
-          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
           <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
           <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
           <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
         </div>
       </div>
-    </div>
-    <!-- End Top Bar -->
-  
-    <!-- Branding and Navigation -->
-    <div class="branding d-flex align-items-center">
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-cente">
+
       <div class="container position-relative d-flex align-items-center justify-content-between">
         <a href="index.html" class="logo d-flex align-items-center">
-          <h1 class="sitename">Impact</h1><span>.</span>
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename">Student Project Management</h1>
+          <span>.</span>
         </a>
-  
+
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="#hero">Home</a></li>
+            <li><a href="#hero" class="active">Home<br></a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">Dropdown 1</a></li>
+                <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                  <ul>
+                    <li><a href="#">Deep Dropdown 1</a></li>
+                    <li><a href="#">Deep Dropdown 2</a></li>
+                    <li><a href="#">Deep Dropdown 3</a></li>
+                    <li><a href="#">Deep Dropdown 4</a></li>
+                    <li><a href="#">Deep Dropdown 5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Dropdown 2</a></li>
+                <li><a href="#">Dropdown 3</a></li>
+                <li><a href="#">Dropdown 4</a></li>
+              </ul>
+            </li>
             <li><a href="#contact">Contact</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
+
       </div>
+
     </div>
-    <!-- End Branding and Navigation -->
+
   </header>
-  
 
   <main class="main">
 
@@ -116,11 +134,11 @@
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="services-list">
-              <a href="#" class="active">Web Design</a>
-              <a href="#">Software Development</a>
-              <a href="#">Product Management</a>
-              <a href="#">Graphic Design</a>
-              <a href="#">Marketing</a>
+              <a href="#" class="active">Project Creation</a>
+              <a href="#">Task Management</a>
+              <a href="#">Milestone Tracking</a>
+              <a href="#">Deadline Reminders</a>
+              <a href="#">Team chat</a>
             </div>
 
             <h4>Enim qui eos rerum in delectus</h4>
@@ -128,7 +146,11 @@
           </div>
 
           <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
+           
+            <div style="position: relative; width: 300px; height: 600px; border: 7px solid black; border-radius: 30px; background: #333; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+              <!-- ภาพหน้าจอ -->
+              <img src="assets/img/app/Create Project.png" alt="App Screenshot" style="width: calc(100% - 10px); height: calc(100% - 10px); border-radius: 20px; position: absolute; top: 5px; left: 5px;">
+            </div>
             <h3>Temporibus et in vero dicta aut eius lidero plastis trand lined voluptas dolorem ut voluptas</h3>
             <p>
               Blanditiis voluptate odit ex error ea sed officiis deserunt. Cupiditate non consequatur et doloremque consequuntur. Accusantium labore reprehenderit error temporibus saepe perferendis fuga doloribus vero. Qui omnis quo sit. Dolorem architecto eum et quos deleniti officia qui.
@@ -144,6 +166,18 @@
             <p>
               Sunt rem odit accusantium omnis perspiciatis officia. Laboriosam aut consequuntur recusandae mollitia doloremque est architecto cupiditate ullam. Quia est ut occaecati fuga. Distinctio ex repellendus eveniet velit sint quia sapiente cumque. Et ipsa perferendis ut nihil. Laboriosam vel voluptates tenetur nostrum. Eaque iusto cupiditate et totam et quia dolorum in. Sunt molestiae ipsum at consequatur vero. Architecto ut pariatur autem ad non cumque nesciunt qui maxime. Sunt eum quia impedit dolore alias explicabo ea.
             </p>
+            <div style="position: relative; width: 300px; height: 600px; border: 7px solid black; border-radius: 30px; background: #333; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+              <!-- ภาพหน้าจอ -->
+              <img src="assets/img/app/new task.png" alt="App Screenshot" style="width: calc(100% - 10px); height: calc(100% - 10px); border-radius: 20px; position: absolute; top: 5px; left: 5px;">
+            </div>
+            <div style="position: relative; width: 300px; height: 600px; border: 7px solid black; border-radius: 30px; background: #333; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+              <!-- ภาพหน้าจอ -->
+              <img src="assets/img/app/Reminders.png" alt="App Screenshot" style="width: calc(100% - 10px); height: calc(100% - 10px); border-radius: 20px; position: absolute; top: 5px; left: 5px;">
+            </div>
+            <div style="position: relative; width: 300px; height: 600px; border: 7px solid black; border-radius: 30px; background: #333; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+              <!-- ภาพหน้าจอ -->
+              <img src="assets/img/app/Home.png" alt="App Screenshot" style="width: calc(100% - 10px); height: calc(100% - 10px); border-radius: 20px; position: absolute; top: 5px; left: 5px;">
+            </div>
           </div>
 
         </div>
@@ -234,7 +268,7 @@
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-  <!-- Main JS File -->
+  <!-- Main JS File . -->
   <script src="assets/js/main.js"></script>
 
 </body>
